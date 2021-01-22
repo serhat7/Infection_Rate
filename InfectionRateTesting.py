@@ -65,7 +65,7 @@ class Quiz:
 
 
         if questionNumber > totalQuestion:
-            print('Quiz bitti.')
+            print('Quiz finished..')
 
         else:
             print(f'Question {questionNumber} of {totalQuestion}'.center(100, '*'))
